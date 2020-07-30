@@ -3,16 +3,7 @@ var router = express.Router();
 var eventManager = require('../manager/getsManager');
 router.get('/getUsers', function(req, res, next) {
     try {
-        eventManager.getUsers(req.body).then(
-            (data) => {
-                let response = {
-                    content: data.recordset,
-                    success: data.output,
-                    code: 200
-                };
-                res.send(JSON.stringify(response));
-            }
-        );
+        res.send({test:'buenas'});
     }
     catch (err) {
         let response = {
