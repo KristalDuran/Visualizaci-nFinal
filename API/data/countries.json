@@ -1,0 +1,1078 @@
+﻿{
+"countries": [
+	{
+		"id" : 144,
+		"id_continent" : 3,
+		"name" : "Afganistán"
+	},
+	{
+		"id" : 114,
+		"id_continent" : 4,
+		"name" : "Albania"
+	},
+	{
+		"id" : 18,
+		"id_continent" : 4,
+		"name" : "Alemania"
+	},
+	{
+		"id" : 98,
+		"id_continent" : 1,
+		"name" : "Algeria"
+	},
+	{
+		"id" : 145,
+		"id_continent" : 4,
+		"name" : "Andorra"
+	},
+	{
+		"id" : 119,
+		"id_continent" : 1,
+		"name" : "Angola"
+	},
+	{
+		"id" : 4,
+		"id_continent" : 3,
+		"name" : "Anguilla"
+	},
+	{
+		"id" : 147,
+		"id_continent" : 3,
+		"name" : "Antigua y Barbuda"
+	},
+	{
+		"id" : 207,
+		"id_continent" : 3,
+		"name" : "Antillas Holandesas"
+	},
+	{
+		"id" : 91,
+		"id_continent" : 3,
+		"name" : "Arabia Saudita"
+	},
+	{
+		"id" : 5,
+		"id_continent" : 3,
+		"name" : "Argentina"
+	},
+	{
+		"id" : 6,
+		"id_continent" : 3,
+		"name" : "Armenia"
+	},
+	{
+		"id" : 142,
+		"id_continent" : 3,
+		"name" : "Aruba"
+	},
+	{
+		"id" : 1,
+		"id_continent" : 3,
+		"name" : "Australia"
+	},
+	{
+		"id" : 2,
+		"id_continent" : 3,
+		"name" : "Austria"
+	},
+	{
+		"id" : 3,
+		"id_continent" : 3,
+		"name" : "Azerbaiyán"
+	},
+	{
+		"id" : 80,
+		"id_continent" : 3,
+		"name" : "Bahamas"
+	},
+	{
+		"id" : 127,
+		"id_continent" : 3,
+		"name" : "Bahrein"
+	},
+	{
+		"id" : 149,
+		"id_continent" : 3,
+		"name" : "Bangladesh"
+	},
+	{
+		"id" : 128,
+		"id_continent" : 3,
+		"name" : "Barbados"
+	},
+	{
+		"id" : 9,
+		"id_continent" : 3,
+		"name" : "Bélgica"
+	},
+	{
+		"id" : 8,
+		"id_continent" : 3,
+		"name" : "Belice"
+	},
+	{
+		"id" : 151,
+		"id_continent" : 3,
+		"name" : "Benín"
+	},
+	{
+		"id" : 10,
+		"id_continent" : 3,
+		"name" : "Bermudas"
+	},
+	{
+		"id" : 7,
+		"id_continent" : 3,
+		"name" : "Bielorrusia"
+	},
+	{
+		"id" : 123,
+		"id_continent" : 3,
+		"name" : "Bolivia"
+	},
+	{
+		"id" : 79,
+		"id_continent" : 3,
+		"name" : "Bosnia y Herzegovina"
+	},
+	{
+		"id" : 100,
+		"id_continent" : 3,
+		"name" : "Botsuana"
+	},
+	{
+		"id" : 12,
+		"id_continent" : 3,
+		"name" : "Brasil"
+	},
+	{
+		"id" : 155,
+		"id_continent" : 3,
+		"name" : "Brunéi"
+	},
+	{
+		"id" : 11,
+		"id_continent" : 3,
+		"name" : "Bulgaria"
+	},
+	{
+		"id" : 156,
+		"id_continent" : 3,
+		"name" : "Burkina Faso"
+	},
+	{
+		"id" : 157,
+		"id_continent" : 3,
+		"name" : "Burundi"
+	},
+	{
+		"id" : 152,
+		"id_continent" : 3,
+		"name" : "Bután"
+	},
+	{
+		"id" : 159,
+		"id_continent" : 3,
+		"name" : "Cabo Verde"
+	},
+	{
+		"id" : 158,
+		"id_continent" : 3,
+		"name" : "Camboya"
+	},
+	{
+		"id" : 31,
+		"id_continent" : 3,
+		"name" : "Camerún"
+	},
+	{
+		"id" : 32,
+		"id_continent" : 3,
+		"name" : "Canadá"
+	},
+	{
+		"id" : 130,
+		"id_continent" : 3,
+		"name" : "Chad"
+	},
+	{
+		"id" : 81,
+		"id_continent" : 3,
+		"name" : "Chile"
+	},
+	{
+		"id" : 35,
+		"id_continent" : 3,
+		"name" : "China"
+	},
+	{
+		"id" : 33,
+		"id_continent" : 3,
+		"name" : "Chipre"
+	},
+	{
+		"id" : 82,
+		"id_continent" : 3,
+		"name" : "Colombia"
+	},
+	{
+		"id" : 164,
+		"id_continent" : 3,
+		"name" : "Comores"
+	},
+	{
+		"id" : 112,
+		"id_continent" : 3,
+		"name" : "Congo"
+	},
+	{
+		"id" : 166,
+		"id_continent" : 3,
+		"name" : "Cook, Islas"
+	},
+	{
+		"id" : 84,
+		"id_continent" : 3,
+		"name" : "Corea del Norte"
+	},
+	{
+		"id" : 69,
+		"id_continent" : 3,
+		"name" : "Corea del Sur"
+	},
+	{
+		"id" : 168,
+		"id_continent" : 3,
+		"name" : "Costa de Marfil"
+	},
+	{
+		"id" : 36,
+		"id_continent" : 3,
+		"name" : "Costa Rica",
+		"capital": "San José",
+		"currency" : "Colón costarricense",
+		"population" : "4 999 000",
+		"prefix" : "+506",
+		"president" : "Carlos Alvarado"
+	},
+	{
+		"id" : 71,
+		"id_continent" : 3,
+		"name" : "Croacia"
+	},
+	{
+		"id" : 113,
+		"id_continent" : 3,
+		"name" : "Cuba"
+	},
+	{
+		"id" : 22,
+		"id_continent" : 3,
+		"name" : "Dinamarca"
+	},
+	{
+		"id" : 169,
+		"id_continent" : 3,
+		"name" : "Djibouti, Yibuti"
+	},
+	{
+		"id" : 103,
+		"id_continent" : 3,
+		"name" : "Ecuador"
+	},
+	{
+		"id" : 23,
+		"id_continent" : 3,
+		"name" : "Egipto"
+	},
+	{
+		"id" : 51,
+		"id_continent" : 3,
+		"name" : "El Salvador"
+	},
+	{
+		"id" : 93,
+		"id_continent" : 3,
+		"name" : "Emiratos Árabes Unidos"
+	},
+	{
+		"id" : 173,
+		"id_continent" : 3,
+		"name" : "Eritrea"
+	},
+	{
+		"id" : 52,
+		"id_continent" : 3,
+		"name" : "Eslovaquia"
+	},
+	{
+		"id" : 53,
+		"id_continent" : 3,
+		"name" : "Eslovenia"
+	},
+	{
+		"id" : 28,
+		"id_continent" : 3,
+		"name" : "España"
+	},
+	{
+		"id" : 55,
+		"id_continent" : 3,
+		"name" : "Estados Unidos"
+	},
+	{
+		"id" : 68,
+		"id_continent" : 3,
+		"name" : "Estonia"
+	},
+	{
+		"id" : 121,
+		"id_continent" : 3,
+		"name" : "Etiopía"
+	},
+	{
+		"id" : 175,
+		"id_continent" : 3,
+		"name" : "Feroe, Islas"
+	},
+	{
+		"id" : 90,
+		"id_continent" : 3,
+		"name" : "Filipinas"
+	},
+	{
+		"id" : 63,
+		"id_continent" : 3,
+		"name" : "Finlandia"
+	},
+	{
+		"id" : 176,
+		"id_continent" : 3,
+		"name" : "Fiyi"
+	},
+	{
+		"id" : 64,
+		"id_continent" : 3,
+		"name" : "Francia"
+	},
+	{
+		"id" : 180,
+		"id_continent" : 3,
+		"name" : "Gabón"
+	},
+	{
+		"id" : 181,
+		"id_continent" : 3,
+		"name" : "Gambia"
+	},
+	{
+		"id" : 21,
+		"id_continent" : 3,
+		"name" : "Georgia"
+	},
+	{
+		"id" : 105,
+		"id_continent" : 3,
+		"name" : "Ghana"
+	},
+	{
+		"id" : 143,
+		"id_continent" : 3,
+		"name" : "Gibraltar"
+	},
+	{
+		"id" : 184,
+		"id_continent" : 3,
+		"name" : "Granada"
+	},
+	{
+		"id" : 20,
+		"id_continent" : 3,
+		"name" : "Grecia"
+	},
+	{
+		"id" : 94,
+		"id_continent" : 3,
+		"name" : "Groenlandia"
+	},
+	{
+		"id" : 17,
+		"id_continent" : 3,
+		"name" : "Guadalupe"
+	},
+	{
+		"id" : 185,
+		"id_continent" : 3,
+		"name" : "Guatemala"
+	},
+	{
+		"id" : 186,
+		"id_continent" : 3,
+		"name" : "Guernsey"
+	},
+	{
+		"id" : 187,
+		"id_continent" : 3,
+		"name" : "Guinea"
+	},
+	{
+		"id" : 172,
+		"id_continent" : 3,
+		"name" : "Guinea Ecuatorial"
+	},
+	{
+		"id" : 188,
+		"id_continent" : 3,
+		"name" : "Guinea-Bissau"
+	},
+	{
+		"id" : 189,
+		"id_continent" : 3,
+		"name" : "Guyana"
+	},
+	{
+		"id" : 16,
+		"id_continent" : 3,
+		"name" : "Haiti"
+	},
+	{
+		"id" : 137,
+		"id_continent" : 3,
+		"name" : "Honduras"
+	},
+	{
+		"id" : 73,
+		"id_continent" : 3,
+		"name" : "Hong Kong"
+	},
+	{
+		"id" : 14,
+		"id_continent" : 3,
+		"name" : "Hungría"
+	},
+	{
+		"id" : 25,
+		"id_continent" : 3,
+		"name" : "India"
+	},
+	{
+		"id" : 74,
+		"id_continent" : 3,
+		"name" : "Indonesia"
+	},
+	{
+		"id" : 140,
+		"id_continent" : 3,
+		"name" : "Irak"
+	},
+	{
+		"id" : 26,
+		"id_continent" : 3,
+		"name" : "Irán"
+	},
+	{
+		"id" : 27,
+		"id_continent" : 3,
+		"name" : "Irlanda"
+	},
+	{
+		"id" : 215,
+		"id_continent" : 3,
+		"name" : "Isla Pitcairn"
+	},
+	{
+		"id" : 83,
+		"id_continent" : 3,
+		"name" : "Islandia"
+	},
+	{
+		"id" : 228,
+		"id_continent" : 3,
+		"name" : "Islas Salomón"
+	},
+	{
+		"id" : 58,
+		"id_continent" : 3,
+		"name" : "Islas Turcas y Caicos"
+	},
+	{
+		"id" : 154,
+		"id_continent" : 3,
+		"name" : "Islas Virgenes Británicas"
+	},
+	{
+		"id" : 24,
+		"id_continent" : 3,
+		"name" : "Israel"
+	},
+	{
+		"id" : 29,
+		"id_continent" : 3,
+		"name" : "Italia"
+	},
+	{
+		"id" : 132,
+		"id_continent" : 3,
+		"name" : "Jamaica"
+	},
+	{
+		"id" : 70,
+		"id_continent" : 3,
+		"name" : "Japón"
+	},
+	{
+		"id" : 193,
+		"id_continent" : 3,
+		"name" : "Jersey"
+	},
+	{
+		"id" : 75,
+		"id_continent" : 3,
+		"name" : "Jordania"
+	},
+	{
+		"id" : 30,
+		"id_continent" : 3,
+		"name" : "Kazajstán"
+	},
+	{
+		"id" : 97,
+		"id_continent" : 3,
+		"name" : "Kenia"
+	},
+	{
+		"id" : 34,
+		"id_continent" : 3,
+		"name" : "Kirguistán"
+	},
+	{
+		"id" : 195,
+		"id_continent" : 3,
+		"name" : "Kiribati"
+	},
+	{
+		"id" : 37,
+		"id_continent" : 3,
+		"name" : "Kuwait"
+	},
+	{
+		"id" : 196,
+		"id_continent" : 3,
+		"name" : "Laos"
+	},
+	{
+		"id" : 197,
+		"id_continent" : 3,
+		"name" : "Lesotho"
+	},
+	{
+		"id" : 38,
+		"id_continent" : 3,
+		"name" : "Letonia"
+	},
+	{
+		"id" : 99,
+		"id_continent" : 3,
+		"name" : "Líbano"
+	},
+	{
+		"id" : 198,
+		"id_continent" : 3,
+		"name" : "Liberia"
+	},
+	{
+		"id" : 39,
+		"id_continent" : 3,
+		"name" : "Libia"
+	},
+	{
+		"id" : 126,
+		"id_continent" : 3,
+		"name" : "Liechtenstein"
+	},
+	{
+		"id" : 40,
+		"id_continent" : 3,
+		"name" : "Lituania"
+	},
+	{
+		"id" : 41,
+		"id_continent" : 3,
+		"name" : "Luxemburgo"
+	},
+	{
+		"id" : 85,
+		"id_continent" : 3,
+		"name" : "Macedonia del Norte"
+	},
+	{
+		"id" : 134,
+		"id_continent" : 3,
+		"name" : "Madagascar"
+	},
+	{
+		"id" : 76,
+		"id_continent" : 3,
+		"name" : "Malasia"
+	},
+	{
+		"id" : 125,
+		"id_continent" : 3,
+		"name" : "Malawi"
+	},
+	{
+		"id" : 200,
+		"id_continent" : 3,
+		"name" : "Maldivas"
+	},
+	{
+		"id" : 133,
+		"id_continent" : 3,
+		"name" : "Malí"
+	},
+	{
+		"id" : 86,
+		"id_continent" : 3,
+		"name" : "Malta"
+	},
+	{
+		"id" : 131,
+		"id_continent" : 3,
+		"name" : "Man, Isla de"
+	},
+	{
+		"id" : 104,
+		"id_continent" : 3,
+		"name" : "Marruecos"
+	},
+	{
+		"id" : 201,
+		"id_continent" : 3,
+		"name" : "Martinica"
+	},
+	{
+		"id" : 202,
+		"id_continent" : 3,
+		"name" : "Mauricio"
+	},
+	{
+		"id" : 108,
+		"id_continent" : 3,
+		"name" : "Mauritania"
+	},
+	{
+		"id" : 42,
+		"id_continent" : 3,
+		"name" : "México"
+	},
+	{
+		"id" : 43,
+		"id_continent" : 3,
+		"name" : "Moldavia"
+	},
+	{
+		"id" : 44,
+		"id_continent" : 3,
+		"name" : "Mónaco"
+	},
+	{
+		"id" : 139,
+		"id_continent" : 3,
+		"name" : "Mongolia"
+	},
+	{
+		"id" : 117,
+		"id_continent" : 3,
+		"name" : "Mozambique"
+	},
+	{
+		"id" : 205,
+		"id_continent" : 3,
+		"name" : "Myanmar"
+	},
+	{
+		"id" : 102,
+		"id_continent" : 3,
+		"name" : "Namibia"
+	},
+	{
+		"id" : 206,
+		"id_continent" : 3,
+		"name" : "Nauru"
+	},
+	{
+		"id" : 107,
+		"id_continent" : 3,
+		"name" : "Nepal"
+	},
+	{
+		"id" : 209,
+		"id_continent" : 3,
+		"name" : "Nicaragua"
+	},
+	{
+		"id" : 210,
+		"id_continent" : 3,
+		"name" : "Níger"
+	},
+	{
+		"id" : 115,
+		"id_continent" : 3,
+		"name" : "Nigeria"
+	},
+	{
+		"id" : 212,
+		"id_continent" : 3,
+		"name" : "Norfolk Island"
+	},
+	{
+		"id" : 46,
+		"id_continent" : 3,
+		"name" : "Noruega"
+	},
+	{
+		"id" : 208,
+		"id_continent" : 3,
+		"name" : "Nueva Caledonia"
+	},
+	{
+		"id" : 45,
+		"id_continent" : 3,
+		"name" : "Nueva Zelanda"
+	},
+	{
+		"id" : 213,
+		"id_continent" : 3,
+		"name" : "Omán"
+	},
+	{
+		"id" : 19,
+		"id_continent" : 3,
+		"name" : "Países Bajos, Holanda"
+	},
+	{
+		"id" : 87,
+		"id_continent" : 3,
+		"name" : "Pakistán"
+	},
+	{
+		"id" : 124,
+		"id_continent" : 3,
+		"name" : "Panamá"
+	},
+	{
+		"id" : 88,
+		"id_continent" : 3,
+		"name" : "Papúa-Nueva Guinea"
+	},
+	{
+		"id" : 110,
+		"id_continent" : 3,
+		"name" : "Paraguay"
+	},
+	{
+		"id" : 89,
+		"id_continent" : 3,
+		"name" : "Perú"
+	},
+	{
+		"id" : 178,
+		"id_continent" : 3,
+		"name" : "Polinesia Francesa"
+	},
+	{
+		"id" : 47,
+		"id_continent" : 3,
+		"name" : "Polonia"
+	},
+	{
+		"id" : 48,
+		"id_continent" : 3,
+		"name" : "Portugal"
+	},
+	{
+		"id" : 246,
+		"id_continent" : 3,
+		"name" : "Puerto Rico"
+	},
+	{
+		"id" : 216,
+		"id_continent" : 3,
+		"name" : "Qatar"
+	},
+	{
+		"id" : 13,
+		"id_continent" : 3,
+		"name" : "Reino Unido"
+	},
+	{
+		"id" : 65,
+		"id_continent" : 3,
+		"name" : "República Checa"
+	},
+	{
+		"id" : 165,
+		"id_continent" : 3,
+		"name" : "República Democrática del Congo"
+	},
+	{
+		"id" : 138,
+		"id_continent" : 3,
+		"name" : "República Dominicana"
+	},
+	{
+		"id" : 49,
+		"id_continent" : 3,
+		"name" : "Reunión"
+	},
+	{
+		"id" : 217,
+		"id_continent" : 3,
+		"name" : "Ruanda"
+	},
+	{
+		"id" : 72,
+		"id_continent" : 3,
+		"name" : "Rumanía"
+	},
+	{
+		"id" : 50,
+		"id_continent" : 3,
+		"name" : "Rusia"
+	},
+	{
+		"id" : 242,
+		"id_continent" : 3,
+		"name" : "Sáhara Occidental"
+	},
+	{
+		"id" : 223,
+		"id_continent" : 3,
+		"name" : "Samoa"
+	},
+	{
+		"id" : 219,
+		"id_continent" : 3,
+		"name" : "San Cristobal y Nevis"
+	},
+	{
+		"id" : 224,
+		"id_continent" : 3,
+		"name" : "San Marino"
+	},
+	{
+		"id" : 221,
+		"id_continent" : 3,
+		"name" : "San Pedro y Miquelón"
+	},
+	{
+		"id" : 225,
+		"id_continent" : 3,
+		"name" : "San Tomé y Príncipe"
+	},
+	{
+		"id" : 222,
+		"id_continent" : 3,
+		"name" : "San Vincente y Granadinas"
+	},
+	{
+		"id" : 218,
+		"id_continent" : 3,
+		"name" : "Santa Elena"
+	},
+	{
+		"id" : 220,
+		"id_continent" : 3,
+		"name" : "Santa Lucía"
+	},
+	{
+		"id" : 135,
+		"id_continent" : 3,
+		"name" : "Senegal"
+	},
+	{
+		"id" : 226,
+		"id_continent" : 3,
+		"name" : "Serbia y Montenegro"
+	},
+	{
+		"id" : 109,
+		"id_continent" : 3,
+		"name" : "Seychelles"
+	},
+	{
+		"id" : 227,
+		"id_continent" : 3,
+		"name" : "Sierra Leona"
+	},
+	{
+		"id" : 77,
+		"id_continent" : 3,
+		"name" : "Singapur"
+	},
+	{
+		"id" : 106,
+		"id_continent" : 3,
+		"name" : "Siria"
+	},
+	{
+		"id" : 229,
+		"id_continent" : 3,
+		"name" : "Somalia"
+	},
+	{
+		"id" : 120,
+		"id_continent" : 3,
+		"name" : "Sri Lanka"
+	},
+	{
+		"id" : 141,
+		"id_continent" : 3,
+		"name" : "Sudáfrica"
+	},
+	{
+		"id" : 232,
+		"id_continent" : 3,
+		"name" : "Sudán"
+	},
+	{
+		"id" : 67,
+		"id_continent" : 3,
+		"name" : "Suecia"
+	},
+	{
+		"id" : 66,
+		"id_continent" : 3,
+		"name" : "Suiza"
+	},
+	{
+		"id" : 54,
+		"id_continent" : 3,
+		"name" : "Surinam"
+	},
+	{
+		"id" : 234,
+		"id_continent" : 3,
+		"name" : "Swazilandia"
+	},
+	{
+		"id" : 56,
+		"id_continent" : 3,
+		"name" : "Tadjikistan"
+	},
+	{
+		"id" : 92,
+		"id_continent" : 3,
+		"name" : "Tailandia"
+	},
+	{
+		"id" : 78,
+		"id_continent" : 3,
+		"name" : "Taiwan"
+	},
+	{
+		"id" : 101,
+		"id_continent" : 3,
+		"name" : "Tanzania"
+	},
+	{
+		"id" : 171,
+		"id_continent" : 3,
+		"name" : "Timor Oriental"
+	},
+	{
+		"id" : 136,
+		"id_continent" : 3,
+		"name" : "Togo"
+	},
+	{
+		"id" : 235,
+		"id_continent" : 3,
+		"name" : "Tokelau"
+	},
+	{
+		"id" : 236,
+		"id_continent" : 3,
+		"name" : "Tonga"
+	},
+	{
+		"id" : 237,
+		"id_continent" : 3,
+		"name" : "Trinidad y Tobago"
+	},
+	{
+		"id" : 122,
+		"id_continent" : 3,
+		"name" : "Túnez"
+	},
+	{
+		"id" : 57,
+		"id_continent" : 3,
+		"name" : "Turkmenistan"
+	},
+	{
+		"id" : 59,
+		"id_continent" : 3,
+		"name" : "Turquía"
+	},
+	{
+		"id" : 239,
+		"id_continent" : 3,
+		"name" : "Tuvalu"
+	},
+	{
+		"id" : 62,
+		"id_continent" : 3,
+		"name" : "Ucrania"
+	},
+	{
+		"id" : 60,
+		"id_continent" : 3,
+		"name" : "Uganda"
+	},
+	{
+		"id" : 111,
+		"id_continent" : 3,
+		"name" : "Uruguay"
+	},
+	{
+		"id" : 61,
+		"id_continent" : 3,
+		"name" : "Uzbekistán"
+	},
+	{
+		"id" : 240,
+		"id_continent" : 3,
+		"name" : "Vanuatu"
+	},
+	{
+		"id" : 95,
+		"id_continent" : 3,
+		"name" : "Venezuela"
+	},
+	{
+		"id" : 15,
+		"id_continent" : 3,
+		"name" : "Vietnam"
+	},
+	{
+		"id" : 241,
+		"id_continent" : 3,
+		"name" : "Wallis y Futuna"
+	},
+	{
+		"id" : 243,
+		"id_continent" : 3,
+		"name" : "Yemen"
+	},
+	{
+		"id" : 116,
+		"id_continent" : 3,
+		"name" : "Zambia"
+	},
+	{
+		"id" : 96,
+		"id_continent" : 3,
+		"name" : "Zimbabwe"
+	}
+]}

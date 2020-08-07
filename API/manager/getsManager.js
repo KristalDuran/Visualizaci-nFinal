@@ -1,187 +1,113 @@
-var sql = require('mssql');
-var poolConnection = require('../conection/connection');
 
-exports.getUsers = async (req) => {
+var continents = require('./../data/continents.json');
+var countries = require('./../data/countries.json');
+var states = require('./../data/states.json');
+var cities = require('./../data/cities.json');
+
+exports.getContinents = async (req) => {
     try {
-        const pool = await poolConnection.getConnection();
-        let result = await pool.request()
-            .output('Resultado', sql.Bit)
-            .execute('getUsers');
-        sql.close();
-        //console.log(result);
-        return result;
-
+        return continents;
     } catch (err) {
-        console.log(err)
-        sql.close();
-        return "Error en " + err;   
-    }
-}
-exports.getEvents = async (req) => {
-    try {
-        const pool = await poolConnection.getConnection();
-        let result = await pool.request()
-            .output('Resultado', sql.Bit)
-            .execute('getEvents');
-        sql.close();
-        //console.log(result);
-        return result;
-
-    } catch (err) {
-        console.log(err)
-        sql.close();
-        return "Error en " + err;   
+        return "Error al obtener los continentes";   
     }
 }
 
-exports.searchEvent = async (req) => {
+exports.getContinent = async (req) => {
     try {
-        const pool = await poolConnection.getConnection();
-        let result = await pool.request()
-            .input('filtro', sql.VarChar(300), req.filter)//2
-            .output('Resultado', sql.Bit)
-            .execute('searchEvent');
-        sql.close();
-        //console.log(result);
-        return result;
-
+        let continent = null;
+        continents.continents.forEach(element => {
+            if (element.id === Number(req)) {
+                continent = element;
+            }
+        });
+        return continent;
     } catch (err) {
-        console.log(err)
-        sql.close();
-        return "Error en " + err;   
+        return "Error al obtener el continente";   
     }
 }
-exports.getEvent = async (req) => {
-    try {
-        const pool = await poolConnection.getConnection();
-        let result = await pool.request()
-            .input('id_evento', sql.Int, req.idevento)//2
-            .output('Resultado', sql.Bit)
-            .execute('getEvent');
-        sql.close();
-        //console.log(result);
-        return result;
 
+exports.getCountriesByContinentID = async (req) => {
+    try {
+        let countriesList = [];
+        console.log(countries)
+        countries.countries.forEach(element => {
+            if (element.id_continent === Number(req)) {
+                countriesList.push(element);
+            }
+        });
+        return countriesList;
     } catch (err) {
-        console.log(err)
-        sql.close();
-        return "Error en " + err;   
+        return "Error al obtener los paises";   
     }
 }
-exports.getComments = async (req) => {
-    try {
-        const pool = await poolConnection.getConnection();
-        let result = await pool.request()
-            .input('id_evento', sql.Int, req.idevento)//2
-            .output('Resultado', sql.Bit)
-            .execute('getComments');
-        sql.close();
-        //console.log(result);
-        return result;
 
+exports.getCountyByID = async (req) => {
+    try {
+        let country = null;
+        console.log(countries)
+        countries.countries.forEach(element => {
+            if (element.id === Number(req)) {
+                country = element;
+            }
+        });
+        return country;
     } catch (err) {
-        console.log(err)
-        sql.close();
-        return "Error en " + err;   
+        return "Error al obtener el país";   
     }
 }
-exports.getRegistered = async (req) => {
-    try {
-        const pool = await poolConnection.getConnection();
-        let result = await pool.request()
-            .input('id_evento', sql.Int, req.idevento)//2
-            .output('Resultado', sql.Bit)
-            .execute('getRegistered');
-        sql.close();
-        //console.log(result);
-        return result;
 
+exports.getStateByCountryID = async (req) => {
+    try {
+        let allStates = [];
+        states.states.forEach(element => {
+            if (element.id_country === Number(req)) {
+                allStates.push(element);
+            }
+        });
+        return allStates;
     } catch (err) {
-        console.log(err)
-        sql.close();
-        return "Error en " + err;   
+        return "Error al obtener los estados";   
     }
 }
-exports.getInvitadosEvent = async (req) => {
-    try {
-        const pool = await poolConnection.getConnection();
-        let result = await pool.request()
-            .input('id_evento', sql.Int, req.id)//2
-            .output('Resultado', sql.Bit)
-            .execute('getInvitadosEvento');
-        sql.close();
-        //console.log(result);
-        return result;
 
+exports.getStateByID = async (req) => {
+    try {
+        let state = null;
+        states.states.forEach(element => {
+            if (element.id === Number(req)) {
+                state = element;
+            }
+        });
+        return state;
     } catch (err) {
-        console.log(err)
-        sql.close();
-        return "Error en " + err;   
+        return "Error al obtener los estados";   
     }
 }
-exports.getUser = async (req) => {
-    try {
-        const pool = await poolConnection.getConnection();
-        let result = await pool.request()
-            .input('id_user', sql.Int, req.id)//2
-            .output('Resultado', sql.Bit)
-            .execute('getUser');
-        sql.close();
-        return result;
 
+exports.getCitiesByStateID = async (req) => {
+    try {
+        let allCities = [];
+        cities.cities.forEach(element => {
+            if (element.id_state === Number(req)) {
+                allCities.push(element);
+            }
+        });
+        return allCities;
     } catch (err) {
-        console.log(err)
-        sql.close();
-        return "Error en " + err;   
+        return "Error al obtener las ciudades";   
     }
 }
-exports.getMyEvents= async (req) => {
-    try {
-        const pool = await poolConnection.getConnection();
-        let result = await pool.request()
-            .input('idusuario', sql.Int, req.id)//2
-            .output('Resultado', sql.Bit)
-            .execute('getMyEvents');
-        sql.close();
-        return result;
 
-    } catch (err) {
-        console.log(err)
-        sql.close();
-        return "Error en " + err;   
-    }
-}
-exports.getAcces= async (req) => {
+exports.getCityByID = async (req) => {
     try {
-        const pool = await poolConnection.getConnection();
-        let result = await pool.request()
-            .input('nameuser',                sql.VarChar(20),    req.nameuser)
-            .input('password',                sql.VarChar(20),    req.password)
-            .output('Resultado', sql.Bit)
-            .execute('getAcces');
-        sql.close();
-        return result;
-
+        let city = null;
+        cities.cities.forEach(element => {
+            if (element.id === Number(req)) {
+                city = element;
+            }
+        });
+        return city;
     } catch (err) {
-        console.log(err)
-        sql.close();
-        return "Error en " + err;   
-    }
-}
-exports.isRegistered= async (req) => {
-    try {
-        const pool = await poolConnection.getConnection();
-        let result = await pool.request()
-            .input('idusuario', sql.Int, 4)
-            .input('idevento', sql.Int, 3)
-            .output('Resultado', sql.Bit)
-            .execute('isRegistered');
-        sql.close();
-        return result;
-
-    } catch (err) {
-        console.log(err)
-        sql.close();
-        return "Error en " + err;   
+        return "Error al obtener la ciudad";   
     }
 }
