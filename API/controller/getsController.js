@@ -70,8 +70,7 @@ router.get('/getCountriesByContinentID', function(req, res, next) {
 
 router.get('/getCountryByID', function(req, res, next) {
     try {
-        console.log(req.query)
-        eventManager.getCountryByID(req.query.id).then(
+        eventManager.getCountyByID(req.query.id).then(
             (data) => {
                 let response = {
                     content: data,

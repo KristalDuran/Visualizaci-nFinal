@@ -4,6 +4,9 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 const getsController = require('./controller/getsController')
+// const updatesController = require('./controller/updatesController')
+// const dropsController = require('./controller/dropsController')
+// const putsController = require('./controller/putsController')
 
 var app = express();
 app.use(logger('dev'));
@@ -17,8 +20,10 @@ app.use((req, res, next) => {
     res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT,DELETE");
     next();
 });
-
 app.use('/gets', getsController);
+// app.use('/updates',updatesController);
+// app.use('/drops',dropsController);
+// app.use('/puts',putsController);
 
 /**
  * ERROR HANDLER

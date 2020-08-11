@@ -7483,7 +7483,10 @@
 	{
 		"id" : 1657,
 		"id_country" : 111,
-		"name" : "San José"
+		"name" : "San José",
+		"poblacion":"1 635 144",
+		"capital":"San José",
+		"subdivision":"20 cantones"
 	},
 	{
 		"id" : 1658,
@@ -8118,7 +8121,10 @@
 	{
 		"id" : 1793,
 		"id_country" : 36,
-		"name" : "San José"
+		"name" : "San José",
+		"poblacion":"1 635 144",
+		"capital":"San José",
+		"subdivision":"20 cantones"
 	},
 	{
 		"id" : 1795,
