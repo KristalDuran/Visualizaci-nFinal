@@ -8,7 +8,7 @@ var debug = require('debug')('sgabackend:server');
 var http = require('http');
 
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 4000);
 
 /**
  * Create HTTP server.
